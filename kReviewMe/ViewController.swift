@@ -14,7 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         /** call 'showReviewView' method with desired launch counts needed. **/
+        if #available(iOS 10.3, *) {
         kReviewMe().showReviewView(afterMinimumLaunchCount: 2)
+        }else{
+            // Review View is unvailable for lower versions. Please use your custom view.
+        }
     }
 
     override func didReceiveMemoryWarning() {
