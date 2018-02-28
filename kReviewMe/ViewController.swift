@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        /** call 'showReviewView' method with desired launch counts needed. **/
+        kReviewMe().showReviewView(afterMinimumLaunchCount: 2)
     }
 
     override func didReceiveMemoryWarning() {

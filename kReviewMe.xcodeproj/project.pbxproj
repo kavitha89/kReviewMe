@@ -14,6 +14,7 @@
 		3556E4A92046AEB000F00F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3556E4A72046AEB000F00F88 /* LaunchScreen.storyboard */; };
 		3556E4B42046AEB000F00F88 /* kReviewMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3556E4B32046AEB000F00F88 /* kReviewMeTests.swift */; };
 		3556E4BF2046AEB100F00F88 /* kReviewMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3556E4BE2046AEB100F00F88 /* kReviewMeUITests.swift */; };
+		3556E4CD2046AF8600F00F88 /* kReviewMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3556E4CC2046AF8600F00F88 /* kReviewMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3556E4BA2046AEB100F00F88 /* kReviewMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kReviewMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3556E4BE2046AEB100F00F88 /* kReviewMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kReviewMeUITests.swift; sourceTree = "<group>"; };
 		3556E4C02046AEB100F00F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3556E4CC2046AF8600F00F88 /* kReviewMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kReviewMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3556E4A52046AEB000F00F88 /* Assets.xcassets */,
 				3556E4A72046AEB000F00F88 /* LaunchScreen.storyboard */,
 				3556E4AA2046AEB000F00F88 /* Info.plist */,
+				3556E4CC2046AF8600F00F88 /* kReviewMe.swift */,
 			);
 			path = kReviewMe;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3556E4CD2046AF8600F00F88 /* kReviewMe.swift in Sources */,
 				3556E4A12046AEB000F00F88 /* ViewController.swift in Sources */,
 				3556E49F2046AEB000F00F88 /* AppDelegate.swift in Sources */,
 			);
